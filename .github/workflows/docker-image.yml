@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build -t sjmaabane/whatsapp_fastapi_webhook:latest2 .
+      run: docker build -t sjmaabane/whatsapp_fastapi_webhook:latest2
 
     - name: Push the Docker image
       run: docker push sjmaabane/whatsapp_fastapi_webhook:latest2
